@@ -13,6 +13,49 @@ li {
     margin-right: 5px;
     margin-bottom: 5px;
     width: 30%;
-    padding: 5px;
+    padding: 7px;
     float:left;
+    border-radius: 2px;
+    font-family: sans-serif;
+    color: rgb(0, 32, 0);
 }
+
+#title {
+    height: 77px;
+    font-weight: 600;
+}
+
+#pillarname {
+    float: left;
+    font-size: small;
+    width: 50%;
+}
+
+#date {
+    float: right;
+    font-size: small;
+    width: 47%;
+    text-align: right;
+}
+
+#link {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 1, 71);
+    font-style:inherit;
+}
+
+a:hover {
+    font-weight: 700;
+    color: rgb(36, 2, 186);
+}
+
+a:visited {
+    color: rgb(36, 2, 186);
+}
+

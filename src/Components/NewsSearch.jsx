@@ -23,7 +23,8 @@ const NewsSearch = ({ onNewSearch }) => {
             <input 
                 // defaultValue=""
                 ref={ref}
-                autoFocus id="search" 
+                autoFocus 
+                id="search" 
                 name="search" 
                 onChange={handleChange} 
                 placeholder="Search Guardian Headlines" 

@@ -8,10 +8,12 @@ const date = webPublicationDate.slice(0,10);
 
     return (
         <li>
-            <div>{webTitle}</div>
-            <div>{date}</div>
-            <div>{pillarName}</div>
-            <a href={webUrl} rel="noreferrer" target="_blank">View Article</a>
+            <div id="title">{webTitle}</div>
+            <div id="link">
+                <a href={webUrl} rel="noreferrer" target="_blank">View Article</a>
+            </div>
+            <div id="pillarname">{pillarName}</div>
+            <div id="date">{date}</div>
         </li>
     
     )

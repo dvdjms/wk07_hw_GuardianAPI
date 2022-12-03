@@ -2,18 +2,27 @@ form {
     width: 500px;
     margin-bottom: 2px;
     margin-top: 30px;
-    margin-left: 38.3%;
-
+    margin-left:115px;
     float: left;
 }
 
-form > input {
+#search {
     float:left;
     height: 25px;
     margin-right: 15px;
     width: 300px;
     padding-left: 10px;
     border-radius: 5px;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+#search:focus {
+    border-color: darkblue !important;
+    height: 28px;
+    width: 303px;
+    background-color: rgb(247, 247, 252);
+    box-shadow: 0 0 10px darkblue;
 }
 
 #button {
@@ -21,10 +30,13 @@ form > input {
     height: 30px;
     width: 70px;
     border-radius: 5px;
+    padding-right: 8px;
+    color: darkblue;
 }
 
 #button:hover {
-    background-color: rgb(244, 255, 244);
+    background-color: rgb(247, 247, 252);
     font-weight: 600;
     cursor: pointer;
+    font-weight: 700;
 }
