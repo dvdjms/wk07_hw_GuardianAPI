@@ -1,0 +1,21 @@
+#chart_div {
+    margin-top: 0px;
+    height: 320px;
+    position: absolute;
+    float:left;
+    width: 32%;
+   
+}
+
+#header_div {
+    width: 100%;
+}
+
+#new_search_div {
+    margin-left: 25%;
+    position: absolute;
+}
+
+
+
+

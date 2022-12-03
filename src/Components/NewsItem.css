@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+    margin-left: 30%;
+    margin-top: 10%;
+    position: relative;
+    width: 55%
+}
+
+li {
+    border-style: solid;
+    border-color:darkslategrey;
+    height: 135px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+    padding: 5px;
+    float:left;
+}

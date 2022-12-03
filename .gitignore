@@ -21,3 +21,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# key = https://content.guardianapis.com/search?api-key=b0faa1db-1c50-4699-99aa-426edadb9bfc
