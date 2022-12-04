@@ -30,7 +30,7 @@ const NewsChart = ({news}) => {
     ];
       
     const options = {
-        title: "News Sections",
+        title: "News Category",
     };
       
     return (

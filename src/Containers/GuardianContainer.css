@@ -9,6 +9,8 @@
 
 #header_div {
     width: 100%;
+    background-color: rgb(13, 13, 64);
+    height: 70px;
 }
 
 #new_search_div {
